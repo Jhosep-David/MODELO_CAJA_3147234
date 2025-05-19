@@ -1,0 +1,68 @@
+/*estilos Globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+
+/*estilos de la card */
+/*auto: distribucion equitativa del espacio disponible*/
+.card{
+    border: transparent solid 1px;
+    display: block;
+    background-color: #CDC7C5;
+    width: 400px;
+    height: 720px;
+    margin: 50px auto 10px auto;
+    border-radius: 5px;
+}
+
+/**estilos de la imagen*/
+.img{
+    display: block;
+    width: 70%;
+    height: 300px;
+    object-fit: cover;/*se utiliza para redimensionar una imagen o video de manera que cubra completamente el contenedor*/
+    border-radius: 50%;
+    margin:20px auto;
+
+}
+.contenedor{
+    display: block;
+    margin: 50px auto 20px auto;
+    width: 70%;
+}
+
+.titulo, .parrafo{
+    display: block;
+}
+
+.titulo{
+    text-align: center;
+    font-size:  30px;
+    color:#7F4F3D;
+    margin: 10px auto 20px;
+}
+
+.parrafo{
+    text-align: justify;
+    font-size: 20px;
+    color: #272838;
+    margin: 10px auto 20px;
+    overflow: hidden;
+}
+/*estilos de los iconos*/
+
+.boton{
+    display: block;
+    width: 100%;
+    background-color:#7F4F3D;
+    color: #CDC7C5;
+    padding: 10px;
+    text-decoration: none;
+    border-radius:  5px;
+    text-align: center;
+}
+
